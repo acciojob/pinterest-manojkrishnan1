@@ -11,6 +11,10 @@ button{
 	border-radius: 5px;
 	cursor: pointer;
 }
+a{
+	text-decoration:none;
+	color: white;
+}
 .text{
 	padding: 30px;
 	display: flex;
@@ -22,6 +26,7 @@ button{
 	height: 340px;
 }
 img{
+	object-fit: cover;
 	margin:0;
 	width: 600px;
 	height: 400px;
