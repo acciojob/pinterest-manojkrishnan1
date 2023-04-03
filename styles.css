@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+.hero{
+	display: grid;
+	grid-template-columns: 600px 300px;
+	
+}
+button{
+	padding: 10px;
+	color: white;
+	background-color: red;
+	border: 2px solid red;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.text{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border: 2px solid red;
+	height: 340px;
+}
+img{
+	margin:0;
+	width: 600px;
+	height: 400px;
+}
